@@ -6,6 +6,7 @@ import { DataService } from 'app/dataService/data.service';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './components/hello/hello.component';
 import { GoodbyeComponent } from './components/goodbye/goodbye.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 import { AppRoutingModule } from 'app/app-router.module';
 
@@ -13,7 +14,8 @@ import { AppRoutingModule } from 'app/app-router.module';
   declarations: [
     AppComponent,
     HelloComponent,
-    GoodbyeComponent
+    GoodbyeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,7 @@
+.myButton {
+  height: 3em;
+  width: 7em;
+  border: none;
+  border-radius: 5em;
+  cursor: pointer;
+}
