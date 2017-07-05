@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { DataService } from 'app/dataService/data.service';
+// import { DataService } from 'app/dataService/data.service';
 
 @Component ({
   selector: 'app-hello',
@@ -13,9 +13,9 @@ export class HelloComponent implements OnInit {
 
   // someProperty: any;
 
-  constructor(private dataService: DataService) {
-
-  }
+  // constructor(private dataService: DataService) {
+  //
+  // }
 
   ngOnInit() {
     // console.log(this.dataService.cars);

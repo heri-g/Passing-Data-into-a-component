@@ -9,7 +9,7 @@ export class GoodbyeComponent implements OnInit {
 
   helloName: string;
 
-  constructor() { this.helloName = 'Goodye World'; }
+  constructor() { this.helloName = 'Goodbye World'; }
 
   ngOnInit() {
   }
